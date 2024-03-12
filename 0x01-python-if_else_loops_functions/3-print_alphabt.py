@@ -6,7 +6,4 @@ for i in list(
                 ) + list(
                         range(ord('r'), ord('z') + 1)
                         ):
-                    print('Last digit of {} is {} and is {}'.format(number, d,
-                                                'greater than 5' if d > 5 else 
-                                                'less than 6 and not 0' if d else 
-                                                '0'))
+                    print('{:c}'.format(i), end="")
