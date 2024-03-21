@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 #include <Python.h>
 #include <stdio.h>
 
